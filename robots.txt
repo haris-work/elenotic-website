@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elenotic.com/sitemap.xml

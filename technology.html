@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Technology — Elenotic</title><meta name="description" content="How Elenotic thinks about distributed-energy intelligence: observe, understand, predict, optimize, act and learn. Early-stage research direction.">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Elenotic"><meta property="og:title" content="Technology — Elenotic"><meta property="og:description" content="How Elenotic thinks about distributed-energy intelligence: observe, understand, predict, optimize, act and learn. Early-stage research direction.">
+<meta name="theme-color" content="#080b10"><link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css"><script src="js/main.js" defer></script></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header class="nav"><a class="brand" href="index.html">ELENOTIC</a><nav aria-label="Main">
+<a href="technology.html" aria-current="page">Technology</a><a href="vision.html">Vision</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></header>
+<main id="main">
+<section><h1>Technology</h1><p class="lead">Elenotic is building an intelligence layer that enables distributed energy systems to understand, coordinate and optimize generation, storage and consumption.</p>
+<p class="note">Everything on this page describes our thesis and development direction.</p></section>
+<section><h2>The intelligence loop</h2><p>We frame the system as a continuous loop.</p>
+<ol class="loop">
+<li><strong>Observe</strong><span>Gather data from solar systems, batteries, the grid, appliances, EVs, meters, weather and tariffs.</span></li>
+<li><strong>Understand</strong><span>Maintain a current picture of generation, consumption, battery state, grid status, appliance state and constraints.</span></li>
+<li><strong>Predict</strong><span>Use machine learning to estimate solar generation, household demand, future energy availability and battery behavior.</span></li>
+<li><strong>Optimize</strong><span>Decide how energy should be allocated, balancing cost, solar use, battery health, backup needs, appliance constraints, preferences and comfort.</span></li>
+<li><strong>Act</strong><span>Over time, coordinate controllable assets.</span></li>
+<li><strong>Learn</strong><span>Use real outcomes and feedback to improve predictions and decisions. Then the loop repeats.</span></li></ol></section>
+<section><h2>Prediction and optimization are different jobs</h2>
+<p>We intend to use Neural Networks to recognize patterns and estimate what is likely to happen: solar output from history, weather and system data; household demand from consumption history and routines; battery behavior from past operation.</p>
+<div class="grid"><div><h3>Prediction asks</h3><p>What is likely to happen?</p></div><div><h3>Optimization asks</h3><p>What should we do about it?</p></div></div>
+<p style="margin-top:1.4rem">If tomorrow is forecast to be cloudy, the system still has to decide what to do today. That means weighing competing goals: lower cost, higher renewable utilization, less waste, battery health, backup capacity and comfort.</p></section>
+<section><h2>Reinforcement learning, as a research direction</h2>
+<p>Reinforcement learning lets an agent learn sequential decisions by interacting with an environment: it observes the energy state, takes an action, sees the outcome and receives a reward. Objectives could include lower cost, better solar utilization, backup reliability, less unnecessary battery cycling and maintained comfort.</p>
+<div class="chain"><div>Energy state</div><div>Agent</div><div>Action</div><div>Outcome and reward</div><div>Learning</div></div>
+<p>We are exploring this direction as highly critical in our mission</p></section>
+<section><h2>Hardware-agnostic by design</h2><p>Our long-term goal is an intelligence layer that works above inverters, batteries, EVs and appliances from different vendors.</p></section>
+</main>
+<footer><div><strong style="font-family:var(--serif);letter-spacing:.3em;color:var(--text)">ELENOTIC</strong><p>The intelligence layer for distributed energy.</p><p>&copy; <span id="y">2026</span> Elenotic. Early-stage company.</p></div>
+<nav aria-label="Footer"><a href="about.html">About</a><a href="technology.html">Technology</a><a href="vision.html">Vision</a><a href="contact.html">Contact</a></nav></footer>
+</body></html>
